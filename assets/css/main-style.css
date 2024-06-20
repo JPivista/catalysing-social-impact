@@ -2380,12 +2380,12 @@ input[type="number"] {
   color: var(--theme-color);
   margin-top: 10px;
 }
-
+/* 
 .dropdown-item:focus,
 .dropdown-item:hover {
   background-color: var(--theme-color);
   color: var(--white);
-}
+} */
 
 .about-us-main .section-title h2 {
   color: #a0a0a0;
@@ -2551,38 +2551,15 @@ input[type="number"] {
   position: fixed;
 }
 
-.custom-dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.custom-dropbtn {
-  background-color: transparent;
-  color: black;
-  padding: 12px;
-  font-size: 16px;
+ul.dropdown-menu.show {
+  background: white;
   border: none;
-  cursor: pointer;
-}
-
-.custom-dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  width: 100px;
+  border-radius: 0;
 }
 
-.custom-dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.custom-dropdown-content a:hover {
-  background-color: #f1f1f1;
+.dropdown-item:active {
+  background-color: transparent;
 }
 
 .home-page.sdg-page .main-site {

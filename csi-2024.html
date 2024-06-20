@@ -36,17 +36,27 @@
               <li>
                 <a href="index.html">Home</a>
               </li>
-              <li>
-                <!-- <a class="active" href="csi-2024.html">CSI 2024</a> -->
-                <div class="custom-dropdown">
-                  <button onclick="toggleDropdown()" class="custom-dropbtn">
-                    Overview
-                  </button>
-                  <div id="myCustomDropdown" class="custom-dropdown-content">
-                    <a href="csi-2024.html">CSI 2024</a>
-                    <a href="csi-awards-2024.html">Awards</a>
-                  </div>
-                </div>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Overview
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="csi-2024.html">CSI 2024</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="csi-awards-2024.html"
+                      >Awards</a
+                    >
+                  </li>
+                </ul>
               </li>
 
               <li>
@@ -868,8 +878,28 @@
               <a href="index.html" class="active">Home</a>
             </li>
             <li></li>
-            <li>
-              <a href="csi-2024.html">CSI 2024</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                style="padding: 0px !important"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Overview
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="csi-2024.html">CSI 2024</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="csi-awards-2024.html"
+                    >Awards</a
+                  >
+                </li>
+              </ul>
             </li>
             <li>
               <a href="csi-2019.html">CSI 2019</a>

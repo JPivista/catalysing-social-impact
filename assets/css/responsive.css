@@ -745,6 +745,19 @@
   .banner-slider .slick-track .slick-slide.page-banner .page-banner-view {
     height: auto;
   }
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: #f5d47b; /* Optional: to make the content stand out against the background */
+    padding: 0px;
+    margin: auto;
+    border-radius: 10px; /* Optional: for rounded corners */
+    min-height: 60px;
+    justify-content: start;
+    align-items: start;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -1081,7 +1094,17 @@
   }
 
   .content {
-    width: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: #f5d47b; /* Optional: to make the content stand out against the background */
+    padding: 0px;
+    margin: auto;
+    border-radius: 10px; /* Optional: for rounded corners */
+    min-height: 60px;
+    justify-content: start;
+    align-items: start;
   }
 
   .csi-award {

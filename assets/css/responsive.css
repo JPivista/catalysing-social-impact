@@ -1050,8 +1050,8 @@
   .rectangle_background {
     position: absolute;
     top: 10%;
-    left: 0;
-    width: 100%;
+    left: 41px;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: center;

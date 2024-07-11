@@ -1106,6 +1106,20 @@
     justify-content: start;
     align-items: start;
   }
+  .content-agenda {
+    /* display: flex; */
+    align-items: center;
+    background: #fff; /* Optional: to make the content stand out against the background */
+    padding: 0px;
+    margin: auto;
+    border-radius: 10px; /* Optional: for rounded corners */
+    width: 90% !important;
+    /* width: 480px; */
+    height: auto;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
 
   .csi-award {
     position: absolute;

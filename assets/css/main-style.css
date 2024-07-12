@@ -3019,6 +3019,7 @@ ul.dropdown-menu.show {
   padding: 0px;
   margin: auto;
   border-radius: 10px; /* Optional: for rounded corners */
+  border: 1px solid #F5E2A2;
   width: 520px;
   /* width: 480px; */
   height: 60px;

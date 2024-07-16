@@ -257,8 +257,9 @@ function openPopup14() {
         <p>An interactive workshop gathering climate leaders and changemakers to discuss strategies for a sustainable and hopeful future.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
         <img class="popup-img w-25" src="assets/images/logo/community.png" alt="Image 1">
+        <img class="popup-img w-25" src="assets/images/logo/farm.png" alt="Image 1">
         </div>
     `;
 

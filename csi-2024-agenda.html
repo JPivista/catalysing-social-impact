@@ -18,7 +18,7 @@
     <style>
         /* Style for the popup links */
         /* Style for the popup links */
-.popup-links {
+        .popup-links {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -51,16 +51,21 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     overflow: auto;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Center the popup content */
 .popup-content {
     background-color: #fefefe;
-    margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 90%;
     max-width: 600px;
     position: relative;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .popup-content #popup-content-area {
@@ -86,6 +91,22 @@
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .popup-content {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .close {
+        font-size: 24px;
+    }
+
+    .popup-links {
+        font-size: 16px;
+    }
 }
 
 
@@ -236,7 +257,7 @@
                     <table class="table table-bordered table-fonts shadow">
                         <thead class="">
                             <tr>
-                                <th>
+                                <th class="pt-3">
                                     <div class="gradient-card w-100"
                                         style="background-image: linear-gradient(to right, #2ecc71, #3498db);">
                                         <div class="icon-wrapper">
@@ -245,7 +266,7 @@
                                         <p class="fs-4 mt-4 pt-2 text-white">TIME</p>
                                     </div>
                                 </th>
-                                <th>
+                                <th class="pt-3">
                                     <div class="gradient-card w-100"
                                         style="background-image: linear-gradient(to right, #5DA7D6, #8458B9);">
                                         <div class="icon-wrapper">
@@ -254,7 +275,7 @@
                                         <p class="fs-4 mt-4 pt-2 text-white">EVENT</p>
                                     </div>
                                 </th>
-                                <th>
+                                <th class="pt-3">
                                     <div class="gradient-card w-100"
                                         style="background-image: linear-gradient(to right, #B267B9, #DE636C);">
                                         <div class="icon-wrapper">
@@ -263,7 +284,7 @@
                                         <p class="fs-4 mt-4 pt-2 text-white">LOCATION</p>
                                     </div>
                                 </th>
-                                <th>
+                                <th class="pt-3">
                                     <div class="gradient-card w-100"
                                         style="background-image: linear-gradient(to right, #F0B55F, #F4D078);">
 
@@ -428,11 +449,11 @@
                 <!-- Agenta Day 2 Heading -->
                 <p class="text-center">Registration: 9:30 AM</p>
 
-                <div class="">
+                <div class="table-responsive">
                     <table class="table table-bordered table-fonts shadow">
                         <thead class="">
                             <tr>
-                                <th>
+                                <th class="pt-3">
                                     <div class="gradient-card w-100"
                                         style="background-image: linear-gradient(to right, #2ecc71, #3498db);">
                                         <div class="icon-wrapper">
@@ -441,7 +462,7 @@
                                         <p class="fs-4 mt-4 pt-2 text-white">TIME</p>
                                     </div>
                                 </th>
-                                <th>
+                                <th class="pt-3">
                                     <div class="gradient-card w-100"
                                         style="background-image: linear-gradient(to right, #5DA7D6, #8458B9);">
                                         <div class="icon-wrapper">
@@ -450,7 +471,7 @@
                                         <p class="fs-4 mt-4 pt-2 text-white">EVENT</p>
                                     </div>
                                 </th>
-                                <th>
+                                <th class="pt-3">
                                     <div class="gradient-card w-100"
                                         style="background-image: linear-gradient(to right, #B267B9, #DE636C);">
                                         <div class="icon-wrapper">
@@ -459,7 +480,7 @@
                                         <p class="fs-4 mt-4 pt-2 text-white">LOCATION</p>
                                     </div>
                                 </th>
-                                <th>
+                                <th class="pt-3">
                                     <div class="gradient-card w-100"
                                         style="background-image: linear-gradient(to right, #F0B55F, #F4D078);">
 

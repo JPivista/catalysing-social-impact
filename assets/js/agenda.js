@@ -159,7 +159,7 @@ function openPopup9() {
 
     var contentHTML = `
          <h4 class="py-3 fw-bold">Social Protection Coalition Launch</h4>
-        <p>A round table and launch session to discuss and strategize social protection for vulnerable communities, promoting resilience and inclusion.
+        <p>A round table and launch session to discuss and strategise social protection for vulnerable communities, promoting resilience and inclusion.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>

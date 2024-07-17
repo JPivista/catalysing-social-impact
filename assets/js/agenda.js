@@ -304,6 +304,25 @@ function openPopup16() {
     popup.style.display = "block";
 }
 
+// Function to open Popup 17
+function openPopup17() {
+    var popup = document.getElementById("popup");
+    var contentArea = document.getElementById("popup-content-area");
+
+    var contentHTML = `
+         <h4 class="py-3 fw-bold">The Wicked Solutions Show</h4>
+        <p>Tune in to 'The Wicked Solutions Show' hosted by Shiv Kumar, Co-founder of the Catalyst Group. This curiosity-fueled talk show features changemakers and visionaries in the development sector who are redefining the future of work through their innovative and impactful solutions to complex, wicked problems.
+        </p>
+        <h5 class="py-3 fw-bold">Collaborator:</h5>
+        <div>
+        <img class="popup-img w-25" src="assets/images/logo/catalyst.png" alt="Image 1">
+        </div>
+    `;
+
+    contentArea.innerHTML = contentHTML;
+    popup.style.display = "block";
+}
+
 
 // Function to close the popup
 function closePopup() {

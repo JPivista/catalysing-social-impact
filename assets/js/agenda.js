@@ -315,7 +315,7 @@ function openPopup17() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25" src="assets/images/logo/catalyst.png" alt="Image 1">
+        <img class="popup-img w-25" src="assets/images/logo/sattva.jpg" alt="Image 1">
         </div>
     `;
 

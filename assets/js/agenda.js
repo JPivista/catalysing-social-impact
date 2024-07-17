@@ -325,6 +325,26 @@ function openPopup17() {
     popup.style.display = "block";
 }
 
+// Function to open Popup 18
+function openPopup18() {
+    var popup = document.getElementById("popup");
+    var contentArea = document.getElementById("popup-content-area");
+
+    var contentHTML = `
+         <h4 class="py-3 fw-bold">Sustained and Effective Market Access for MSEs</h4>
+        <p>This workshop will explore innovative solutions for enhancing MSE market access, focusing on sustainable growth and resilience.
+        </p>
+        <h5 class="py-3 fw-bold">Collaborator:</h5>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/cms.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/vrutti.png" alt="Image 1">
+        </div>
+    `;
+
+    contentArea.innerHTML = contentHTML;
+    popup.style.display = "block";
+}
+
 
 // Function to close the popup
 function closePopup() {

@@ -276,8 +276,9 @@ function openPopup15() {
         <p>This closed-door workshop will focus on building a coalition for social procurement in India, aligning with SDGs and promoting economic and social development.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="gap-5 d-flex">
         <img class="popup-img w-25 h-100" src="assets/images/logo/sap.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/sattva.jpg" alt="Image 1">
         </div>
     `;
 
@@ -311,12 +312,12 @@ function openPopup17() {
 
     var contentHTML = `
          <h4 class="py-3 fw-bold">The Wicked Solutions Show</h4>
-        <p>Tune in to 'The Wicked Solutions Show' hosted by Shiv Kumar, Co-founder of the catalyst foundation
+        <p>Tune in to 'The Wicked Solutions Show' hosted by Shiv Kumar, Co-founder of the Catalyst Foundation
         . This curiosity-fueled talk show features changemakers and visionaries in the development sector who are redefining the future of work through their innovative and impactful solutions to complex, wicked problems.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/sattva.jpg" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/catalyst.png" alt="Image 1">
         </div>
     `;
 

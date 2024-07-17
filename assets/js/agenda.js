@@ -345,6 +345,25 @@ function openPopup18() {
     popup.style.display = "block";
 }
 
+// Function to open Popup 19
+function openPopup19() {
+    var popup = document.getElementById("popup");
+    var contentArea = document.getElementById("popup-content-area");
+
+    var contentHTML = `
+         <h4 class="py-3 fw-bold">Herding Cats: Making Collaborations and Partnerships Work</h4>
+        <p>Partnerships and collaborations are essential for amplifying social impact. However, they are fraught with challenges like misaligned goals, communication barriers and resource constraints.  Join this engaging session to explore the complexities of forming and managing effective collaborations.
+        </p>
+        <h5 class="py-3 fw-bold">Collaborator:</h5>
+        <div>
+        <img class="popup-img w-25 h-100" src="assets/images/logo/phicus.png" alt="phicus">
+        </div>
+    `;
+
+    contentArea.innerHTML = contentHTML;
+    popup.style.display = "block";
+}
+
 
 // Function to close the popup
 function closePopup() {

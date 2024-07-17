@@ -8,7 +8,7 @@ function openPopup1() {
         <p>Outcomes-based financing (OBF) is an increasingly popular approach to development finance, but there are deep-rooted questions and concerns about what OBF looks like in practice. This session, led by the British Asian Trust (BAT), will explore how OBF can be unlocked and more easily accessed, aiming to mitigate risks and enable sustainable investments.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <img class="popup-img w-25" src="assets/images/logo/british.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/british.png" alt="Image 1">
         
     `;
 
@@ -27,8 +27,8 @@ function openPopup2() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img w-25" src="assets/images/logo/common.png" alt="Image 1">
-        <img class="popup-img w-25" src="assets/images/logo/vrutti.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/common.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/vrutti.png" alt="Image 1">
         </div>
     `;
 
@@ -47,9 +47,9 @@ function openPopup3() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img w-25" src="assets/images/logo/blended.png" alt="Image 1">
-        <img class="popup-img w-25" src="assets/images/logo/waterfield.png" alt="Image 1">
-        <img class="popup-img w-25" src="assets/images/logo/gamer.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/blended.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/waterfield.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/gamer.png" alt="Image 1">
         </div>
     `;
 
@@ -68,8 +68,8 @@ function openPopup4() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img w-25" src="assets/images/logo/icmai.png" alt="Image 1">
-        <img class="popup-img w-25" src="assets/images/logo/catalyst.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/icmai.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/catalyst.png" alt="Image 1">
         </div>
     `;
 
@@ -88,7 +88,7 @@ function openPopup5() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25" src="assets/images/logo/future.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/future.png" alt="Image 1">
         </div>
     `;
 
@@ -107,7 +107,7 @@ function openPopup6() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25" src="assets/images/logo/nexus.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/nexus.png" alt="Image 1">
         </div>
     `;
 
@@ -125,7 +125,7 @@ function openPopup7() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25" src="assets/images/logo/socion.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/socion.png" alt="Image 1">
         </div>
     `;
 
@@ -143,8 +143,8 @@ function openPopup8() {
         <p>This workshop will explore innovative solutions for enhancing MSME market access, focusing on sustainable growth and resilience.</p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img w-25" src="assets/images/logo/cms.png" alt="Image 1">
-        <img class="popup-img w-25" src="assets/images/logo/vrutti.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/cms.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/vrutti.png" alt="Image 1">
         </div>
     `;
 
@@ -163,7 +163,7 @@ function openPopup9() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25" src="assets/images/logo/cms.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/cms.png" alt="Image 1">
         </div>
     `;
 
@@ -182,7 +182,7 @@ function openPopup10() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25" src="assets/images/logo/nexus.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/nexus.png" alt="Image 1">
         </div>
     `;
 
@@ -201,7 +201,7 @@ function openPopup11() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25" src="assets/images/logo/si.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/si.png" alt="Image 1">
         </div>
     `;
 
@@ -220,7 +220,7 @@ function openPopup12() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25" src="assets/images/logo/asra.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/asra.png" alt="Image 1">
         </div>
     `;
 
@@ -239,7 +239,7 @@ function openPopup13() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25" src="assets/images/logo/farm.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/farm.png" alt="Image 1">
         </div>
     `;
 
@@ -258,8 +258,8 @@ function openPopup14() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img w-25" src="assets/images/logo/community.png" alt="Image 1">
-        <img class="popup-img w-25" src="assets/images/logo/farm.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/community.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/farm.png" alt="Image 1">
         </div>
     `;
 
@@ -277,7 +277,7 @@ function openPopup15() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25" src="assets/images/logo/sap.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/sap.png" alt="Image 1">
         </div>
     `;
 
@@ -296,7 +296,7 @@ function openPopup16() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25" src="assets/images/logo/sap.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/sap.png" alt="Image 1">
         </div>
     `;
 
@@ -311,11 +311,12 @@ function openPopup17() {
 
     var contentHTML = `
          <h4 class="py-3 fw-bold">The Wicked Solutions Show</h4>
-        <p>Tune in to 'The Wicked Solutions Show' hosted by Shiv Kumar, Co-founder of the Catalyst Group. This curiosity-fueled talk show features changemakers and visionaries in the development sector who are redefining the future of work through their innovative and impactful solutions to complex, wicked problems.
+        <p>Tune in to 'The Wicked Solutions Show' hosted by Shiv Kumar, Co-founder of the catalyst foundation
+        . This curiosity-fueled talk show features changemakers and visionaries in the development sector who are redefining the future of work through their innovative and impactful solutions to complex, wicked problems.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25" src="assets/images/logo/sattva.jpg" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/sattva.jpg" alt="Image 1">
         </div>
     `;
 

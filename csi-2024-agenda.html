@@ -17,99 +17,100 @@
 
     <style>
         /* Style for the popup links */
-    
+
         .popup-links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
-    font-size: 18px;
-    cursor: pointer;
-}
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
 
-.popup-links p {
-    margin: 0;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-}
+        .popup-links p {
+            margin: 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
 
-.popup-links p:hover {
-    background-color: #e0e0e0;
-}
+        .popup-links p:hover {
+            background-color: #e0e0e0;
+        }
 
-/* Style for the popup */
-.popup {
-    display: none; /* Hidden by default */
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    overflow: auto;
-    justify-content: center;
-    align-items: center;
-}
+        /* Style for the popup */
+        .popup {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow: auto;
+            justify-content: center;
+            align-items: center;
+        }
 
-/* Center the popup content */
-.popup-content {
-    background-color: #fefefe;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 90%;
-    max-width: 600px;
-    position: relative;
-    margin: auto;
-    top: 50%;
-    transform: translateY(-50%);
-}
+        /* Center the popup content */
+        .popup-content {
+            background-color: #fefefe;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 90%;
+            max-width: 600px;
+            position: relative;
+            margin: auto;
+            top: 50%;
+            transform: translateY(-50%);
+        }
 
-.popup-content #popup-content-area {
-    /* Additional styling for content area */
-}
+        .popup-content #popup-content-area {
+            /* Additional styling for content area */
+        }
 
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-}
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
 
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
 
-.popup-img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
+        .popup-img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
 
-/* Media query for smaller screens */
-@media screen and (max-width: 600px) {
-    .popup-content {
-        width: 95%;
-        padding: 15px;
-    }
+        /* Media query for smaller screens */
+        @media screen and (max-width: 600px) {
+            .popup-content {
+                width: 95%;
+                padding: 15px;
+            }
 
-    .close {
-        font-size: 24px;
-    }
+            .close {
+                font-size: 24px;
+            }
 
-    .popup-links {
-        font-size: 16px;
-    }
-}
+            .popup-links {
+                font-size: 16px;
+            }
+        }
 
-    /* Style for the popup links END*/
+        /* Style for the popup links END*/
 
 
 
@@ -127,7 +128,7 @@
         }
 
         .border-bottom-dotted {
-            border-bottom: 1    px dotted #d6b4eb;
+            border-bottom: 1 px dotted #d6b4eb;
         }
 
         @media (max-width: 767px) {
@@ -242,7 +243,7 @@
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link custom-tab " id="day2-tab" data-bs-toggle="tab" data-bs-target="#day2"
+                    <button class="nav-link custom-tab" id="day2-tab" data-bs-toggle="tab" data-bs-target="#day2"
                         type="button" role="tab" aria-controls="day2" aria-selected="false">
                         Day 2
                     </button>
@@ -252,7 +253,7 @@
 
         <div class="tab-content container m-3" id="myTabContent">
             <!-- Day 1 -->
-            <div class="tab-pane fade show active  fw-bold fs-4" id="day1" role="tabpanel" aria-labelledby="day1-tab">
+            <div class="tab-pane fade show active fw-bold fs-4" id="day1" role="tabpanel" aria-labelledby="day1-tab">
                 <p class="text-center">Registration: 9:30 AM</p>
 
                 <div class="table-responsive">
@@ -274,7 +275,7 @@
                                         <div class="icon-wrapper">
                                             <img src="assets/images/event.svg" alt="Clock">
                                         </div>
-                                        <p class="fs-4 mt-4 pt-2 text-white">EVENT</p>
+                                        <p class="fs-4 mt-4 pt-2 text-white">TOPIC</p>
                                     </div>
                                 </th>
                                 <th class="pt-3">
@@ -304,137 +305,150 @@
                             <tr>
                                 <td class="txt-agenda-green p-4 py-3">10.30-12.00</td>
                                 <td class="p-4 py-3">Inaugural</td>
-                                <td class="p-4 py-3">Bhim</td>
+                                <td class="p-4 py-3">Bhim, Ground floor</td>
                                 <td></td>
                             </tr>
                             <!-- row 2 -->
                             <tr>
                                 <td rowspan="5" class="txt-agenda-green p-4 py-3">12.00-13.30</td>
-                                <td class="p-4 py-3">Centre for Public Health Comms: Film Showcase</td>
-                                <td class="p-4 py-3">Nalanda</td>
+                                <td class="p-4 py-3" onclick="openPopup21()">
+                                    <u style="color: #8458B9; cursor: pointer;">
+                                        Centre for Public Health Comms: Film Showcase
+                                    </u>
+                                </td>
+                                <td class="p-4 py-3">Nalanda, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Side Event</td>
                             </tr>
                             <tr>
                                 <td class="p-4 py-3" onclick="openPopup17()">
                                     <u style="color: #8458B9; cursor: pointer;">Wicked Solutions Show</u>
                                 </td>
-                                <td class="p-4 py-3">Bhim</td>
+                                <td class="p-4 py-3">Bhim, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Side Event</td>
                             </tr>
                             <tr>
                                 <td class="p-4 py-3" onclick="openPopup7()"><u style="color: #8458B9; cursor: pointer;">
-                                    Reimagining Implementation @Scale
-                                </u></td>
-                                <td class="p-4 py-3">Conference 1</td>
+                                        Reimagining Implementation @Scale
+                                    </u></td>
+                                <td class="p-4 py-3">Conference 1, Second floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Implementation - Fidelity & Quality</td>
                             </tr>
                             <tr>
                                 <td class="p-4 py-3" onclick="openPopup1()">
                                     <u style="color: #8458B9; cursor: pointer;">
                                         Demystifying Outcome-Based Finance (OBF): A Practical Guide to and
-                                    AMA Session
-                                    </u></td>
-                                <td class="p-4 py-3">VIP Lounge</td>
+                                        AMA Session
+                                    </u>
+                                </td>
+                                <td class="p-4 py-3">VIP Lounge, First floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">
-                                        Innovative Financing
-                                    </td>
+                                    Innovative Financing
+                                </td>
                             </tr>
                             <tr>
-                                <td class="p-4 py-3"onclick="openPopup2()">
+                                <td class="p-4 py-3" onclick="openPopup2()">
                                     <u style="color: #8458B9; cursor: pointer;">
                                         Private Financing for Decarbonization: Community Based Ecosystem
-                                    Services for
-                                    Commons
-                                    </u></td>
-                                <td class="p-4 py-3">Samrastha</td>
+                                        Services for
+                                        Commons
+                                    </u>
+                                </td>
+                                <td class="p-4 py-3">Samrastha, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">
-                                        Innovative Financing
+                                    Innovative Financing
                                 </td>
                             </tr>
 
                             <!-- row 3 -->
                             <tr>
                                 <td class="txt-agenda-green p-4 py-3">12.00-16.00</td>
-                                <td class="p-4 py-3" onclick="openPopup15()"><u style="color: #8458B9; cursor: pointer;">
-                                    Procure with Purpose: Building a Coalition for Social Procurement
-                                    in India
-                                </u></td>
-                                <td class="p-4 py-3">Conference 2</td>
+                                <td class="p-4 py-3" onclick="openPopup15()"><u
+                                        style="color: #8458B9; cursor: pointer;">
+                                        Procure with Purpose: Building a Coalition for Social Procurement
+                                        in India
+                                    </u></td>
+                                <td class="p-4 py-3">Conference 2, Second floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Side Event</td>
                             </tr>
 
                             <!-- row 4 -->
                             <tr>
                                 <td rowspan="2" class="txt-agenda-green p-4 py-3">12.30-14.30</td>
-                                <td class="p-4 py-3">Lunch at VIP Dining (Available from 12:30 PM 2:30 PM)</td>
-                                <td class="p-4 py-3">VIP Dining</td>
+                                <td class="p-4 py-3">Lunch at VIP Dining (Available from 12:30 PM - 2:30 PM)</td>
+                                <td class="p-4 py-3">VIP Dining, First floor</td>
                                 <td class="txt-agenda-orange p-4 py-3"></td>
                             </tr>
                             <tr>
                                 <td class="p-4 py-3">Tea/Coffee (Available from 9:30 AM - 6:00 PM, Snacks served twice
                                     AM and PM)</td>
-                                <td class="p-4 py-3">Foyer</td>
+                                <td class="p-4 py-3">Foyer, First floor</td>
                                 <td class="txt-agenda-orange"></td>
                             </tr>
                             <!-- Row 5 -->
                             <tr>
                                 <td class="txt-agenda-green p-4 py-3">14.30-16.00</td>
                                 <td class="p-4 py-3" onclick="openPopup9()"><u style="color: #8458B9; cursor: pointer;">
-                                    Social Protection Coalition Launch
-                                </u></td>
-                                <td class="p-4 py-3">Nalanda</td>
+                                        Social Protection Coalition Launch
+                                    </u></td>
+                                <td class="p-4 py-3">Nalanda, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Implementation Fidelity & Quality</td>
                             </tr>
 
                             <!-- row 6 -->
                             <tr>
                                 <td rowspan="4" class="txt-agenda-green p-4 py-3">14.30-18.30</td>
-                                <td class="p-4 py-3" onclick="openPopup12()"><u style="color: #8458B9; cursor: pointer;">
-                                    Building Resilience for VPs Systemic Risk and Response
-                                    Perspective
-                                </u></td>
-                                <td class="p-4 py-3">Bhim</td>
+                                <td class="p-4 py-3" onclick="openPopup12()"><u
+                                        style="color: #8458B9; cursor: pointer;">
+                                        Building Resilience for VPs Systemic Risk and Response
+                                        Perspective
+                                    </u></td>
+                                <td class="p-4 py-3">Bhim, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Grounded Climate Response</td>
                             </tr>
                             <tr>
                                 <td class="p-4 py-3" onclick="openPopup4()"><u style="color: #8458B9; cursor: pointer;">
-                                    Accelerating Implementation and Shaping Policy for the Social Stock
-                                    Exchange
-                                </u></td>
-                                <td class="p-4 py-3">Samrastha</td>
+                                        Accelerating Implementation and Shaping Policy for the Social Stock
+                                        Exchange
+                                    </u></td>
+                                <td class="p-4 py-3">Samrastha, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">
-                                        Innovative Financing
-                                    </td>
+                                    Innovative Financing
+                                </td>
                             </tr>
                             <tr>
-                                <td class="p-4 py-3" onclick="openPopup13()"><u style="color: #8458B9; cursor: pointer;">
-                                    Youth Led Food Transformation using Agroecology Modules | Launching
-                                    Guidebook for Adolescents and Youth
-                                </u></td>
-                                <td class="p-4 py-3">VIP Lounge</td>
+                                <td class="p-4 py-3" onclick="openPopup13()"><u
+                                        style="color: #8458B9; cursor: pointer;">
+                                        Youth Led Food Transformation using Agroecology Modules | Launching
+                                        Guidebook for Adolescents and Youth
+                                    </u></td>
+                                <td class="p-4 py-3">VIP Lounge, First Floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Grounded Climate Response</td>
                             </tr>
                             <tr>
                                 <td class="p-4 py-3" onclick="openPopup5()">
                                     <u style="color: #8458B9; cursor: pointer;">Al and No Code Tools for Impact</u>
                                 </td>
-                                <td class="p-4 py-3">Conference 1</td>
+                                <td class="p-4 py-3">Conference 1, Second floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Implementation - Fidelity & Quality</td>
                             </tr>
 
                             <!-- row 7 -->
                             <tr>
                                 <td rowspan="2" class="txt-agenda-green p-4 py-3">14.30-18.30</td>
-                                <td class="p-4 py-3" onclick="openPopup18()"><u style="color: #8458B9; cursor: pointer;">
-                                    Sustained and Effective Market Access for Micro and Small
-                                    Enterprises (MSEs)
-                                </u></td>
-                                <td class="p-4 py-3">Conference 2</td>
+                                <td class="p-4 py-3" onclick="openPopup18()"><u
+                                        style="color: #8458B9; cursor: pointer;">
+                                        Sustained and Effective Market Access for Micro and Small
+                                        Enterprises (MSEs)
+                                    </u></td>
+                                <td class="p-4 py-3">Conference 2, Second floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Implementation - Fidelity & Quality</td>
                             </tr>
                             <tr>
-                                <td class="p-4 py-3">Centre for Public Health Comms: Film Showcase</td>
-                                <td class="p-4 py-3">Nalanda</td>
+                                <td class="p-4 py-3"onclick="openPopup21()">
+                                    <u style="color: #8458B9; cursor: pointer;">
+                                        Centre for Public Health Comms: Film Showcase
+                                    </u></td>
+                                <td class="p-4 py-3">Nalanda, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Side Event</td>
                             </tr>
 
@@ -442,7 +456,7 @@
                             <tr>
                                 <td class="txt-agenda-green p-4 py-3">18.30-19.15</td>
                                 <td class="p-4 py-3">Closing Plenary</td>
-                                <td class="p-4 py-3">Bhim</td>
+                                <td class="p-4 py-3">Bhim, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3"></td>
                             </tr>
                         </tbody>
@@ -474,7 +488,7 @@
                                         <div class="icon-wrapper">
                                             <img src="assets/images/event.svg" alt="Clock">
                                         </div>
-                                        <p class="fs-4 mt-4 pt-2 text-white">EVENT</p>
+                                        <p class="fs-4 mt-4 pt-2 text-white">TOPIC</p>
                                     </div>
                                 </th>
                                 <th class="pt-3">
@@ -503,83 +517,94 @@
                             <!-- row 1 -->
                             <tr>
                                 <td class="txt-agenda-green p-4 py-3">10.30-11.15</td>
-                                <td class="p-4 py-3">CSI Awards</td>
-                                <td class="p-4 py-3">Bhim</td>
+                                <td class="p-4 py-3 " onclick="openPopup22()">
+                                    <u style="color: #8458B9; cursor: pointer;">
+                                        CSI Awards
+                                    </u>
+                                </td>
+                                <td class="p-4 py-3">Bhim, Ground floor</td>
                                 <td></td>
                             </tr>
                             <!-- row 2 -->
                             <tr>
                                 <td rowspan="5" class="txt-agenda-green p-4 py-3">11:30-13:30</td>
-                                <td class="p-4 py-3" onclick="openPopup14()"><u style="color: #8458B9; cursor: pointer;">
-                                    Frightening Futures, Nourishing Now
-                                </u></td>
-                                <td class="p-4 py-3">Samrastha</td>
+                                <td class="p-4 py-3" onclick="openPopup14()"><u
+                                        style="color: #8458B9; cursor: pointer;">
+                                        Frightening Futures, Nourishing Now
+                                    </u></td>
+                                <td class="p-4 py-3">Samrastha, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Grounded Climate Response</td>
                             </tr>
                             <tr>
                                 <td class="p-4 py-3">Measuring the Impact of Shared Value Initiatives</td>
-                                <td class="p-4 py-3">Nalanda</td>
+                                <td class="p-4 py-3">Nalanda, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Side Event</td>
                             </tr>
                             <tr>
                                 <td class="p-4 py-3">Mainstreaming Capacity Building (Invite Only)</td>
-                                <td class="p-4 py-3">Conference 1</td>
+                                <td class="p-4 py-3">VIP Lounge, First floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Implementation - Fidelity & Quality</td>
                             </tr>
                             <tr>
-                                <td class="p-4 py-3" onclick="openPopup10()"><u style="color: #8458B9; cursor: pointer;">
-                                    Lessons from Scaling with Government
-                                </u></td>
-                                <td class="p-4 py-3">VIP Lounge</td>
+                                <td class="p-4 py-3" onclick="openPopup10()"><u
+                                        style="color: #8458B9; cursor: pointer;">
+                                        Lessons from Scaling with Government
+                                    </u></td>
+
+                                <td class="p-4 py-3">Conference 1, Second floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Implementation Fidelity & Quality</td>
                             </tr>
                             <tr>
-                                <td class="p-4 py-3"onclick="openPopup3()">
+                                <td class="p-4 py-3" onclick="openPopup3()">
                                     <u style="color: #8458B9; cursor: pointer;">
                                         Demystifying Blended Finance: Philanthropic Capital Solutions for
-                                    Commercial Social Ventures
-                                    </u></td>
-                                <td class="p-4 py-3">Conference 2</td>
+                                        Commercial Social Ventures
+                                    </u>
+                                </td>
+                                <td class="p-4 py-3">Conference 2, Second floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Innovative Financing</td>
                             </tr>
 
                             <!-- row 3 -->
                             <tr>
                                 <td class="txt-agenda-green p-4 py-3">11:30-17:30</td>
-                                <td class="p-4 py-3"onclick="openPopup17()">
-                                    <u style="color: #8458B9; cursor: pointer;">Wicked Solutions Show</u></td>
-                                <td class="p-4 py-3">Bhim</td>
+                                <td class="p-4 py-3" onclick="openPopup17()">
+                                    <u style="color: #8458B9; cursor: pointer;">Wicked Solutions Show</u>
+                                </td>
+                                <td class="p-4 py-3">Bhim, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Side Event</td>
                             </tr>
 
                             <!-- row 4 -->
                             <tr>
                                 <td rowspan="2" class="txt-agenda-green p-4 py-3">12:30-14:30</td>
-                                <td class="p-4 py-3">Lunch at VIP Dining (Available from 12:30 PM 2:30 PM)</td>
-                                <td class="p-4 py-3">VIP Dining</td>
+                                <td class="p-4 py-3">Lunch at VIP Dining (Available from 12:30 PM - 2:30 PM)</td>
+                                <td class="p-4 py-3">VIP Dining, First floor</td>
                                 <td class="txt-agenda-orange p-4 py-3"></td>
                             </tr>
                             <tr>
                                 <td class="p-4 py-3">Tea/Coffee (Available from 9:30 AM-6:00 PM. Snacks served twice AM
                                     and PM)</td>
-                                <td class="p-4 py-3">Foyer</td>
+                                <td class="p-4 py-3">Foyer, First floor</td>
                                 <td class="txt-agenda-orange"></td>
                             </tr>
 
                             <!-- row 5 -->
                             <tr>
                                 <td rowspan="2" class="txt-agenda-green p-4 py-3">14:30-16:00</td>
-                                <td class="p-4 py-3" 
-                                onclick="openPopup6()"><u style="color: #8458B9; cursor: pointer;">
-                                    Bridging the Gap: Collaborating between Development Sector and
-                                    Government
-                                </u></td>
-                                <td class="p-4 py-3">Conference 1</td>
+                                <td class="p-4 py-3 mb-0 pb-0" onclick="openPopup6()">
+                                    <u style="color: #8458B9; cursor: pointer;">
+                                        Bridging the Gap: Collaborating between Development Sector and
+                                        Government
+                                    </u></td>
+                                <td class="p-4 py-3">Conference 1, Second floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Implementation Fidelity & Quality</td>
                             </tr>
                             <tr>
-                                <td class="p-4 py-3">Accelerating FPOs to Thriving Business Organisations</td>
-                                <td class="p-4 py-3">Conference 2</td>
+                                <td class="p-4 py-3 justify-content-center">Market Access for Farmers – Effective Institutional Framework to
+                                    Make the Solution Work at Scale;<br> Going Beyond Fitting Solutions Within the
+                                    Framework</td>
+                                <td class="p-4 py-3">Conference 2, Second floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Innovative Financing</td>
                             </tr>
 
@@ -587,29 +612,34 @@
                             <tr>
                                 <td rowspan="3" class="txt-agenda-green p-4 py-3">14:30-17:30</td>
                                 <td class="p-4 py-3">Data for Decisions and Stories</td>
-                                <td class="p-4 py-3">Nalanda</td>
+                                <td class="p-4 py-3">Nalanda, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Implementation Fidelity & Quality</td>
                             </tr>
                             <tr>
-                                <td class="p-4 py-3" onclick="openPopup16()"><u style="color: #8458B9; cursor: pointer;">
-                                    Misfits Pitch
-                                </u></td>
-                                <td class="p-4 py-3">Samrastha</td>
+                                <td class="p-4 py-3" onclick="openPopup16()"><u
+                                        style="color: #8458B9; cursor: pointer;">
+                                        Misfits Pitch
+                                    </u></td>
+                                <td class="p-4 py-3">Samrastha, Ground floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Side Event</td>
                             </tr>
                             <tr>
-                                <td class="p-4 py-3" onclick="openPopup11()"><u style="color: #8458B9; cursor: pointer;">
-                                    Global Warming - A Systems Mapping Game
-                                </u></td>
-                                <td class="p-4 py-3">VIP Lounge</td>
+                                <td class="p-4 py-3" onclick="openPopup11()"><u
+                                        style="color: #8458B9; cursor: pointer;">
+                                        Global Warming - A Systems Mapping Game
+                                    </u></td>
+                                <td class="p-4 py-3">VIP Lounge, First floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Grounded Climate Response</td>
                             </tr>
 
                             <!-- row 7 -->
                             <tr>
                                 <td rowspan="2" class="txt-agenda-green p-4 py-3">16.00-17.30</td>
-                                <td class="p-4 py-3">Integrated Climate and Health Roundtable</td>
-                                <td class="p-4 py-3">Conference 1</td>
+                                <td class="p-4 py-3" onclick="openPopup20()">
+                                    <u style="color: #8458B9; cursor: pointer;">
+                                    Integrated Climate and Health Response
+                                </u></td>
+                                <td class="p-4 py-3">Conference 1, Second floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Grounded Climate Response</td>
                             </tr>
                             <tr>
@@ -618,7 +648,7 @@
                                         Herding Cats: Making Collaborations and Partnerships Work
                                     </u>
                                 </td>
-                                <td class="p-4 py-3">Conference 2</td>
+                                <td class="p-4 py-3">Conference 2, Second floor</td>
                                 <td class="txt-agenda-orange p-4 py-3">Implementation Fidelity & Quality</td>
                             </tr>
 
@@ -626,7 +656,7 @@
                             <tr>
                                 <td class="txt-agenda-green p-4 py-3">17:30-18:15</td>
                                 <td class="p-4 py-3">Closing Plenary</td>
-                                <td class="p-4 py-3">Bhim</td>
+                                <td class="p-4 py-3">Bhim, Ground floor</td>
                                 <td></td>
                             </tr>
                         </tbody>
@@ -657,8 +687,11 @@
                     <p onclick="openPopup17()"></p>
                     <p onclick="openPopup18()"></p>
                     <p onclick="openPopup19()"></p>
+                    <p onclick="openPopup20()"></p>
+                    <p onclick="openPopup21()"></p>
+                    <p onclick="openPopup22()"></p>
                 </div>
-                
+
                 <!-- The popup/modal -->
                 <div id="popup" class="popup">
                     <div class="popup-content">

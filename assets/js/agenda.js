@@ -364,6 +364,63 @@ function openPopup19() {
     popup.style.display = "block";
 }
 
+// Function to open Popup 20
+function openPopup20() {
+    var popup = document.getElementById("popup");
+    var contentArea = document.getElementById("popup-content-area");
+
+    var contentHTML = `
+         <h4 class="py-3 fw-bold">Integrated Climate and Health Response</h4>
+        <p>A roundtable discussion on integrating climate resilience with health responses to address global challenges.
+        </p>
+        <h5 class="py-3 fw-bold">Collaborator:</h5>
+        <div>
+        <img class="popup-img w-25 h-100" src="assets/images/logo/cphc.png" alt="phicus">
+        </div>
+    `;
+
+    contentArea.innerHTML = contentHTML;
+    popup.style.display = "block";
+}
+
+// Function to open Popup 21
+function openPopup21() {
+    var popup = document.getElementById("popup");
+    var contentArea = document.getElementById("popup-content-area");
+
+    var contentHTML = `
+         <h4 class="py-3 fw-bold">Centre for Public Health Comms: Film Showcase</h4>
+        <p>Welcome to the Centre for Public Health Comms: Film Showcase. Explore a curated selection of impactful films that delve into critical public health issues, innovative solutions, and the voices of those affected.
+        </p>
+        <h5 class="py-3 fw-bold">Presenter:</h5>
+        <div>
+        <img class="popup-img w-25 h-100" src="assets/images/logo/cms.png" alt="phicus">
+        </div>
+    `;
+
+    contentArea.innerHTML = contentHTML;
+    popup.style.display = "block";
+}
+
+// Function to open Popup 22
+function openPopup22() {
+    var popup = document.getElementById("popup");
+    var contentArea = document.getElementById("popup-content-area");
+
+    var contentHTML = `
+         <h4 class="py-3 fw-bold">CSI Awards</h4>
+        <p>The <a href="https://catalysingsocialimpact.in/csi-awards-2024.html" target="_blank">CSI Innovation for Transformation Awards</a> celebrates organisations and ideas for social innovation, keeping people and the planet at the centre of their work.
+        </p>
+        <h5 class="py-3 fw-bold">Presenter:</h5>
+        <div>
+        <img class="popup-img w-25 h-100" src="assets/images/logo/cms.png" alt="phicus">
+        </div>
+    `;
+
+    contentArea.innerHTML = contentHTML;
+    popup.style.display = "block";
+}
+
 
 // Function to close the popup
 function closePopup() {

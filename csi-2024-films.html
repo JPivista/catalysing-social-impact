@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSI 2024 | CSI</title>
+    <link
+      rel="icon"
+      href="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/films/favicon.png"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/jquery-jvectormap-2.0.2.css" />
+    <link rel="stylesheet" href="assets/css/main-style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/043e19fd45.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .txt-purple {
+        /* color: #6f42c1; */
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      .movie-card {
+        background-color: white;
+        border: 1px solid #e2e2e2;
+        border-radius: 0.4rem;
+        padding: 1.5rem;
+        margin: 1rem 0;
+      }
+
+      .movie-img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .number {
+        background-color: #f5d47a;
+        color: white;
+        font-weight: bold;
+        font-size: 1.25rem;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border-radius: .25rem; */
+      }
+      .border-bottom-dotted {
+        border-bottom: 2px dotted #d6b4eb !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header-wrapper">
+          <div class="brand-logo">
+            <a href="index.html">
+              <img
+                class="logo"
+                src="assets/logos/catalysing_logo.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div class="header-menu pe-4">
+            <ul class="menu-list">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  CSI 2024
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="csi-2024.html"> Overview </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="csi-2024-agenda.html">
+                      Agenda
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="csi-awards-2024.html"
+                      >Awards</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="csi-2024-films.html"
+                      >Films</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="csi-2019.html">CSI 2019</a>
+              </li>
+              <li><a href="csi-2024-how-to-engage.html">How to Enagage</a></li>
+              <!-- <li><a href="interest-form.html">Sign Up</a></li> -->
+              <li class="btn" style="background-color: #f5d47a">
+                <a
+                  href="https://docs.google.com/forms/d/1eq7SGApyH7qT3UgunUMlJleY1uc_lP1TbtJr7bzkz0E/viewform?edit_requested=true"
+                >
+                  Register Now
+                </a>
+              </li>
+            </ul>
+            <button class="menu-toggle">
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section
+      class="d-flex flex-column justify-content-center align-items-center"
+      style="
+        background-image: url(assets/images/Mask-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px; /* Adjust padding-top to create space below header */
+      "
+    >
+      <div class="text-center">
+        <p class="fs-2 mt-lg-5 fw-bold">
+          Centre for Strategic Communications for Public Health
+        </p>
+        <p class="fs-3">PRESENTS</p>
+        <div class="d-flex flex-column align-items-center p-3 p-md-0">
+            <p class="fs-1 txt-purple fw-bold d-flex align-items-center gap-2">
+              <img src="assets/images/line.png" class="h-md-25" alt="Line Image"/>
+              FILM SHOWCASE
+              <img src="assets/images/line.png" class="h-md-25" alt="Line Image"/>
+            </p>
+          </div>
+          
+
+        <div class="container text-center">
+          <p class="fs-lg-5 text-center mx-auto responsive-width">
+            Welcome to the Centre for Strategic Communication for Public Health
+            <b>Film Showcase</b>. Explore a curated selection of impactful films
+            that delve into critical public health issues, innovative solutions,
+            and the voices of those affected.
+          </p>
+        </div>
+      </div>
+
+      <!-- row,col Section Started -->
+
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="movie-card">
+              <!-- row 1 -->
+              <div class="row border-bottom-dotted">
+               
+                <div class="col-md-6 order-1 order-md-2">
+                  <div class="number">01</div>
+                  <p class="txt-purple">
+                    Cotton’s Hidden Voices: <br />
+                    Women’s Voices
+                  </p>
+                  <p>
+                    The movie throws light on the crucial role women play in the
+                    modern textile supply chain. Despite being an integral part
+                    of the process, they are undervalued and paid less. The
+                    movie answers the question, “What stories can these women
+                    tell us about their lives in the fashion industry?”
+                  </p>
+                  <p>
+                    <strong>Produced by:</strong> Prof Divya Singhal, Prof
+                    Bethan Bide, Prof Matthew Davis, Prof Mark Sumner, Dr.
+                    Suganya G, and Mr. Siddhant Shah<br />
+                    <strong>Directed by:</strong> Noise Creative and Branding
+                    Consulting<br />
+                    <strong>Duration:</strong> 12 mins
+                  </p>
+                </div>
+                <div class="col-md-6 order-sm-1 order-md-2 d-flex justify-content-center justify-content-md-end align-items-start">
+                    <img
+                      src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/films/cotton.png"
+                      class="movie-img w-75"
+                      alt="Cotton's Hidden Voices"
+                      style="margin-left: 20px"
+                    >
+                  </div>
+              </div>
+              
+
+              <!-- row 2 -->
+              <div class="row border-bottom-dotted mt-4">
+                <div
+                  class="col-md-6 d-flex justify-content-center justify-content-md-start align-items-start mb-3 mb-md-0"
+                >
+                  <img
+                    src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/films/gutter.png"
+                    class="movie-img w-75"
+                    alt="Gutter Ki Macchli"
+                 >
+                </div>
+                <div class="col-md-6">
+                  <div class="number">02</div>
+                  <p class="txt-purple">
+                    Gutter Ki Macchli<br />
+                    (Fish From The Sewer)
+                  </p>
+                  <p>
+                    The animation film weaves together the voices of the
+                    children, youth, and women of a rehabilitation and
+                    resettlement colony in Govandi, Mumbai through their
+                    drawings and poetry to vocalise, localise, and visualise
+                    their experiences of climate change in their poorly built
+                    homes and neighbourhood. Produced after a series of
+                    arts-based workshops, the film captures a local vocabulary
+                    of the people in the margins that is missing in the
+                    discourse around environmental and climate crises in urban
+                    spaces.
+                  </p>
+                  <p>
+                    <strong>Directed by:</strong> Natasha Sharma<br />
+                    <strong>Produced by:</strong> Community Design Agency &
+                    Global Resilience Partnership<br />
+                    <strong>Duration:</strong> 9 mins 55 seconds
+                  </p>
+                </div>
+              </div>
+
+              <!-- row 3 -->
+              <div class="row mt-4 border-bottom-dotted">
+                <div class="col-md-6 order-1 order-md-2">
+                  <div class="number">03</div>
+                  <p class="txt-purple">Nature’s Shields</p>
+                  <p>
+                    Nature’s Shields takes you to diverse geographies of India
+                    that are climate-vulnerable, weaving voices of those who
+                    have experienced extreme climate effects as well as those
+                    who have been affected by rapid urbanisation that has shrunk
+                    precious water resources. The film brings evocative voices
+                    of communities taking charge of their environment and
+                    demonstrating the power of collective action both for the
+                    environment and people.
+                  </p>
+                  <p>
+                    <strong>Directed by:</strong> Nidheesh Tyagi (Head of
+                    Talking Fish Pvt Ltd)<br />
+                    <strong>Produced by:</strong> EEDS organisation<br />
+                    <strong>Duration:</strong> 14 mins
+                  </p>
+                </div>
+                <div
+                  class="col-md-6 d-flex order-sm-1 order-md-2 justify-content-center justify-content-md-end align-items-start mb-3 mb-md-0"
+                >
+                  <img
+                    src="assets/images/nature.png"
+                    class="movie-img w-75"
+                    alt="Nature's Shields"
+                    style="margin-left: 20px"
+                  />
+                </div>
+              </div>
+              <!-- row 4 -->
+              <div class="row border-bottom-dotted my-4">
+                <div
+                  class="col-md-6 d-flex justify-content-center justify-content-md-start align-items-start mb-3 mb-md-0"
+                >
+                  <img
+                    src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/films/spring.png"
+                    class="movie-img w-75"
+                    alt="Gutter Ki Macchli"
+                    style="margin-right: 20px"
+                  />
+                </div>
+                <div class="col-md-6 mb-md-5">
+                  <div class="number">04</div>
+                  <p class="txt-purple">Where Springs Return…</p>
+                  <p>
+                    “Where Springs Return…” is a social documentary film about
+                    Gram Vikas’ work on “Community-Owned Social and Agroforestry
+                    for Protecting and Rejuvenating Water Sources.” This film,
+                    featuring community members from Odisha, discusses various
+                    ways to improve land fertility, regrow forests, and increase
+                    groundwater levels.
+                  </p>
+                  <p>
+                    <strong>Directed and Produced by:</strong> NAjaya Behera
+                    (Social Documentary Photographer and Videographer)<br />
+                    <strong>Duration:</strong> 8 mins
+                  </p>
+                </div>
+              </div>
+
+              <!-- row 5 -->
+              <div class="row mt-4 border-bottom-dotted">
+                <div class="col-md-6 order-1 order-md-2">
+                  <div class="number">05</div>
+                  <p class="txt-purple">Springs of Hope</p>
+                  <p>
+                    “Springs of Hope” showcases the impact of the Swades
+                    Foundation’s efforts in water, documenting the before and
+                    after of the intervention and the many lives and livelihoods
+                    transformed by it.
+                  </p>
+                  <p>
+                    <strong>Directed and Produced by:</strong> Sameer More<br />
+                    <strong>Duration:</strong> 11 mins 35 seconds
+                  </p>
+                </div>
+                <div
+                  class="col-md-6 d-flex justify-content-center align-items-start text-center"
+                >
+                  <img
+                    src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/films/hope.png"
+                    class="movie-img w-75 order-2 order-md-1"
+                    alt="Cotton's Hidden Voices"
+                  />
+                </div>
+              </div>
+
+              <!-- row 6 -->
+              <div class="border-bottom-dotted mt-4">
+                <div class="number">06</div>
+                <p class="txt-purple">Slowing the Spread of Dengue Fever</p>
+                <p>
+                  Developed in consultation with the WHO Foundation and expertly
+                  produced for AVPN organisation by BBC StoryWorks Commercial
+                  Productions, this mini-documentary offers insights into
+                  innovative approaches to disease prevention and management.
+                </p>
+                <p>
+                  <strong>Produced & Directed by:</strong> BBC StoryWorks<br />
+                  <strong>Duration:</strong> 5 mins 32 seconds
+                </p>
+              </div>
+              <!-- row 7 -->
+              <div class="border-bottom-dotted mt-4">
+                <div class="number">07</div>
+                <p class="txt-purple">Obsolete | Bhangaar</p>
+                <p>
+                  The movie revolves around an old couple residing in Mumbai. We
+                  get to see their struggle to appeal their right to death to
+                  the Supreme Court and the President of India. The motive of
+                  the director is to highlight the struggles of old age.
+                </p>
+                <p>
+                  <strong>Produced & Directed by:</strong> Sumira Roy - Indie
+                  Filmmaker, Published Poet, Advertising Professional,
+                  Entrepreneur, Guest Lecturer<br />
+                  <strong>Duration:</strong> 64 mins 11 seconds
+                </p>
+              </div>
+              <!-- row 8 -->
+              <div class="border-bottom-dotted mt-4">
+                <div class="number">08</div>
+                <p class="txt-purple">Dumpster Diving with Jaggery</p>
+                <p>
+                  With this documentary, the creators are attempting to take our
+                  viewers through the entire reutilization process, of
+                  converting these scrap cart seat belts into contemporary
+                  products like messenger bags, laptop sleeves, home decor
+                  items, and adventure gear. The process has many fashionable
+                  names “upcycling”, “remanufacturing”, “circular design”, etc
+                  but for many Indians, the idea of “Punah Prayog” is one that’s
+                  ingrained in our DNA.
+                </p>
+                <p>
+                  <strong>Produced & Directed by:</strong> Gautam Malik: the
+                  Founder of Jaggery<br />
+                  <strong>Duration:</strong> 14 mins
+                </p>
+              </div>
+              <!-- row 9 -->
+              <div class="border-bottom-dotted mt-4">
+                <div class="number">09</div>
+                <p class="txt-purple">
+                  Under the Indian Sky: Tales of Climate and Health - Part 1:
+                  Our Carers
+                </p>
+                <p>
+                  Climate change is a public health crisis and community
+                  healthcare workers are seeing the effects firsthand in the
+                  communities that they work with. Come along with us on this
+                  journey to hear from people across India.
+                </p>
+                <p>
+                  <strong>Produced & Directed by:</strong> Swasti<br />
+                  <strong>Duration:</strong> 4 mins 23 seconds
+                </p>
+              </div>
+
+              <!-- row 10 -->
+              <div class="mt-4">
+                <div class="number">10</div>
+                <p class="txt-purple">
+                  Impact of Climate Change on Sundarbans People
+                </p>
+                <p>
+                  The documentary highlights the issues residents of Sundarban
+                  have been facing due to climate change. We see the community
+                  people struggling with hypertension and other health issues
+                  due to extremely saline water. The documentary also highlights
+                  the efforts invested by the iKure team to help the Sundarban
+                  residents; let us hear their stories.
+                </p>
+                <p>
+                  <strong>Produced & Directed by:</strong> Pritha Chakraborty
+                  (co-founder & CEO of iKure)<br />
+                  <strong>Duration:</strong> 6 mins 6 sec
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer start -->
+    <footer class="site-footer py-3 m-0">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <a href="index.html">
+              <img class="logo" src="assets/images/logo-light.png" alt="logo" />
+            </a>
+          </div>
+          <a class="mail-link" href="mailto:csi2024@catalysts.org"
+            >csi2024@catalysts.org</a
+          >
+        </div>
+        <div class="footer-bottom text-center">
+          <div class="footer-row">
+            <div class="footer-col">
+              <div class="footer-widget">
+                <ul>
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col">
+              <div class="footer-widget">
+                <ul>
+                  <li>
+                    <a href="csi-2019.html">CSI 2019</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col">
+              <div class="footer-widget">
+                <p class="text-white mb-1">CSI 2024</p>
+                <ul class="text-center">
+                  <li class="text-center">
+                    <div class="d-flex flex-column justify-content-center">
+                      <div>
+                        <a
+                          class="text-start"
+                          style="font-size: 12px"
+                          href="csi-2024.html"
+                          >Overview
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          class="text-start"
+                          style="font-size: 12px"
+                          href="csi-2024-agenda.html"
+                          >Agenda</a
+                        >
+                      </div>
+                      <div>
+                        <a
+                          class="text-start"
+                          style="font-size: 12px"
+                          href="csi-awards-2024.html"
+                          >Awards</a
+                        >
+                      </div>
+                      <div>
+                        <a
+                          class="text-start"
+                          style="font-size: 12px"
+                          href="csi-2024-films.html"
+                          >Films</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+                  <!-- <li><a target="_blank" href="sdg.html">SDG</a></li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col">
+              <div class="footer-widget">
+                <ul>
+                  <li>
+                    <a href="csi-2024-how-to-engage.html">How to Engage</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-col">
+              <div class="footer-widget">
+                <ul>
+                  <!-- <li><a href="interest-form.html">Sign Up</a></li> -->
+                  <li>
+                    <a
+                      href="https://docs.google.com/forms/d/1eq7SGApyH7qT3UgunUMlJleY1uc_lP1TbtJr7bzkz0E/viewform?edit_requested=true"
+                    >
+                      Register Now
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- More menu -->
+    <div class="sliding-menu">
+      <div class="left-side">
+        <div class="menu-logo">
+          <a href="index.html">
+            <img
+              class="logo"
+              src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/films/logo-light.png"
+              alt="logo"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="text-end close-head">
+          <a class="close-menu" href="javascript:void(0)"
+            ><i class="fa-solid fa-xmark"></i
+          ></a>
+        </div>
+        <div class="menu-warpper">
+          <!-- main menu in mob start here  -->
+          <ul class="mob-menu">
+            <li>
+              <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+              <a style="padding: 0px !important"> CSI 2024 </a>
+              <ul>
+                <div>
+                  <a href="csi-2024.html" style="font-size: 16px">Overview</a>
+                </div>
+                <div>
+                  <a href="csi-2024-agenda.html" style="font-size: 16px"
+                    >Agenda</a
+                  >
+                </div>
+                <div>
+                  <a href="csi-awards-2024.html" style="font-size: 16px"
+                    >Awards</a
+                  >
+                </div>
+                <div>
+                  <a href="csi-2024-films.html" style="font-size: 16px"
+                    >Films</a
+                  >
+                </div>
+              </ul>
+            </li>
+            <li>
+              <a href="csi-2019.html">CSI 2019</a>
+            </li>
+            <li><a href="csi-2024-how-to-engage.html">How to Engage</a></li>
+            <!-- <li><a target="_blank" href="sdg.html">SDG</a></li> -->
+            <!-- <li><a href="interest-form.html">Sign Up</a></li> -->
+            <li class="btn" style="background-color: #f5d47a">
+              <a
+                href="https://docs.google.com/forms/d/1eq7SGApyH7qT3UgunUMlJleY1uc_lP1TbtJr7bzkz0E/viewform?edit_requested=true"
+              >
+                Register Now
+              </a>
+            </li>
+          </ul>
+          <!-- main menu in mob end here  -->
+        </div>
+      </div>
+    </div>
+    <!-- banner Video Modal -->
+    <!-- Video Modal -->
+    <div
+      class="modal video-popup fade"
+      id="bannerVideoModal"
+      tabindex="-1"
+      aria-labelledby="videoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <div class="modal-body p-0">
+            <video loop playsinline controls class="banner-video w-100">
+              <source src="assets/videos/cphc-for-subtitle.mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video Modal -->
+    <!-- banner Video Modal end -->
+
+    <!-- Required js -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="assets/js/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/agenda.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script> -->
+  </body>
+</html>

@@ -238,8 +238,9 @@ function openPopup13() {
         <p>This workshop will launch a guidebook for adolescents and youth, focusing on sustainable food practices and revitalising local ecosystems.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
         <img class="popup-img w-25 h-100" src="assets/images/logo/farm.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/community.png" alt="Image 1">
         </div>
     `;
 

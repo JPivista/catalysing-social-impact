@@ -332,13 +332,13 @@ function openPopup18() {
     var contentArea = document.getElementById("popup-content-area");
 
     var contentHTML = `
-         <h4 class="py-3 fw-bold">Sustained and Effective Market Access for MSEs</h4>
+         <h4 class="py-3 fw-bold">Transforming District Economies: Leveraging Digital Public Infrastructure for Economic Inclusion</h4>
         <p>This workshop will explore innovative solutions for enhancing MSE market access, focusing on sustainable growth and resilience.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/vrutti.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/hhh.jpg" alt="Image 1">
         </div>
     `;
 

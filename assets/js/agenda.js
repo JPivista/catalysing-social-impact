@@ -8,7 +8,7 @@ function openPopup1() {
         <p>Outcomes-based financing (OBF) is an increasingly popular approach to development finance, but there are deep-rooted questions and concerns about what OBF looks like in practice. This session, led by the British Asian Trust (BAT), will explore how OBF can be unlocked and more easily accessed, aiming to mitigate risks and enable sustainable investments.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/british.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/british.png" alt="Image 1">
         
     `;
 
@@ -27,8 +27,8 @@ function openPopup2() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/common.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/vrutti.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/common.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/vrutti.png" alt="Image 1">
         </div>
     `;
 
@@ -47,9 +47,9 @@ function openPopup3() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/blended.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/waterfield.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/gamer.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/blended.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/waterfield.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/gamer.png" alt="Image 1">
         </div>
     `;
 
@@ -68,8 +68,8 @@ function openPopup4() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/icmai.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/catalyst.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/icmai.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/catalyst.png" alt="Image 1">
         </div>
     `;
 
@@ -88,7 +88,7 @@ function openPopup5() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/future.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/future.png" alt="Image 1">
         </div>
     `;
 
@@ -107,7 +107,7 @@ function openPopup6() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/nexus.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/nexus.png" alt="Image 1">
         </div>
     `;
 
@@ -125,7 +125,7 @@ function openPopup7() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/socion.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/socion.png" alt="Image 1">
         </div>
     `;
 
@@ -143,8 +143,8 @@ function openPopup8() {
         <p>This workshop will explore innovative solutions for enhancing MSME market access, focusing on sustainable growth and resilience.</p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/cms.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/vrutti.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/vrutti.png" alt="Image 1">
         </div>
     `;
 
@@ -163,7 +163,7 @@ function openPopup9() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/cms.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
         </div>
     `;
 
@@ -182,7 +182,7 @@ function openPopup10() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/nexus.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/nexus.png" alt="Image 1">
         </div>
     `;
 
@@ -201,7 +201,7 @@ function openPopup11() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/si.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/si.png" alt="Image 1">
         </div>
     `;
 
@@ -220,7 +220,7 @@ function openPopup12() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/asra.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/asra.png" alt="Image 1">
         </div>
     `;
 
@@ -239,8 +239,8 @@ function openPopup13() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/community.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/farm.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/community.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/farm.png" alt="Image 1">
         </div>
     `;
 
@@ -259,8 +259,8 @@ function openPopup14() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/community.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/farm.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/community.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/farm.png" alt="Image 1">
         </div>
     `;
 
@@ -278,8 +278,8 @@ function openPopup15() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="gap-5 d-flex">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/sap.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/sattva.jpg" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/sap.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/sattva.jpg" alt="Image 1">
         </div>
     `;
 
@@ -298,7 +298,7 @@ function openPopup16() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/mist.jpg" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/mist.jpg" alt="Image 1">
         </div>
     `;
 
@@ -318,7 +318,7 @@ function openPopup17() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/catalyst.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/catalyst.png" alt="Image 1">
         </div>
     `;
 
@@ -337,8 +337,8 @@ function openPopup18() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/cms.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/vrutti.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/vrutti.png" alt="Image 1">
         </div>
     `;
 
@@ -357,7 +357,7 @@ function openPopup19() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/phicus.png" alt="phicus">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/phicus.png" alt="phicus">
         </div>
     `;
 
@@ -376,7 +376,7 @@ function openPopup20() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/cphc.png" alt="phicus">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cphc.png" alt="phicus">
         </div>
     `;
 
@@ -395,7 +395,7 @@ function openPopup21() {
         </p>
         <h5 class="py-3 fw-bold">Presenter:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/cms.png" alt="phicus">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         </div>
     `;
 
@@ -414,7 +414,7 @@ function openPopup22() {
         </p>
         <h5 class="py-3 fw-bold">Presenter:</h5>
         <div>
-        <img class="popup-img w-25 h-100" src="assets/images/logo/cms.png" alt="phicus">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         </div>
     `;
 

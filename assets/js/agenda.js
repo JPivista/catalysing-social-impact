@@ -336,9 +336,9 @@ function openPopup18() {
         <p>This workshop will explore innovative solutions for enhancing MSE market access, focusing on sustainable growth and resilience.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div class="d-flex gap-5">
+        <div class="d-flex gap-5 align-items-center">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/hhh.jpg" alt="Image 1">
+        <img class="popup-img w-25 h-100 " src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/csi/hhh.jpeg" alt="Image 1">
         </div>
     `;
 

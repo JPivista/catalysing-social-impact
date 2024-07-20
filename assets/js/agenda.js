@@ -336,7 +336,7 @@ function openPopup18() {
         <p>This workshop will explore innovative solutions for enhancing MSE market access, focusing on sustainable growth and resilience.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div class="d-flex gap-5 align-items-center">
+        <div class="d-flex gap-5 align-items-centerko">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
         <img class="popup-img w-25 h-100 " src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/csi/hhh.jpeg" alt="Image 1">
         </div>
@@ -415,6 +415,25 @@ function openPopup22() {
         <h5 class="py-3 fw-bold">Presenter:</h5>
         <div>
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
+        </div>
+    `;
+
+    contentArea.innerHTML = contentHTML;
+    popup.style.display = "block";
+}
+
+// Function to open Popup 23
+function openPopup23() {
+    var popup = document.getElementById("popup");
+    var contentArea = document.getElementById("popup-content-area");
+
+    var contentHTML = `
+         <h4 class="py-3 fw-bold">Measuring the Impact of Shared Value Initiatives</h4>
+        <p>An interactive session with corporate speakers, sharing stories of change, while creating shared value with social entrepreneurs.
+        </p>
+        <h5 class="py-3 fw-bold">Collaborator:</h5>
+        <div>
+        <img class="popup-img w-25 h-100" src="assets/images/logo/catalyst-2030.png" alt="catalyst">
         </div>
     `;
 

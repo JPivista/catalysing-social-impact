@@ -260,7 +260,8 @@ function openPopup14() {
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/community.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/farm.png" alt="Image 1">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/vartha.png" alt="Image 1">
+        
         </div>
     `;
 

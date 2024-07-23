@@ -461,6 +461,26 @@ function openPopup24() {
     popup.style.display = "block";
 }
 
+// Function to open Popup 25
+function openPopup25() {
+    var popup = document.getElementById("popup");
+    var contentArea = document.getElementById("popup-content-area");
+
+    var contentHTML = `
+         <h4 class="py-3 fw-bold">Precision Action for Climate and Health - Launch with IMD</h4>
+        <p>PATCH utilises a dashboard from APIs from Indian Meteorological Dept- that aims to provide granular correlations between Climate and Health. Senior officials of IMD are expected to launch this program at CSI.
+        </p>
+        <h5 class="py-3 fw-bold">Collaborator:</h5>
+        <div>
+        <img class="popup-img w-25 h-100" src="assets/images/logo/swasti.png" alt="catalyst">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/imd.jpg" alt="catalyst">
+        </div>
+    `;
+
+    contentArea.innerHTML = contentHTML;
+    popup.style.display = "block";
+}
+
 
 
 

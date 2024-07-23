@@ -442,6 +442,25 @@ function openPopup23() {
     popup.style.display = "block";
 }
 
+// Function to open Popup 24
+function openPopup24() {
+    var popup = document.getElementById("popup");
+    var contentArea = document.getElementById("popup-content-area");
+
+    var contentHTML = `
+         <h4 class="py-3 fw-bold">Micro-Equity: Boosting Growth for Women Micro and Nano-Entrepreneurs</h4>
+        <p>This panel discussion along with practitioners and funders will increase awareness among participants about the challenges and opportunities for women in entrepreneurship and how micro equity can tackle these challenges and build consensus on actionable strategies to address financing of rural women’s entrepreneurship
+        </p>
+        <h5 class="py-3 fw-bold">Collaborator:</h5>
+        <div>
+        <img class="popup-img w-25 h-100" src="assets/images/logo/buzzwomen.jpg" alt="catalyst">
+        </div>
+    `;
+
+    contentArea.innerHTML = contentHTML;
+    popup.style.display = "block";
+}
+
 
 
 

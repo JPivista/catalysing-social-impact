@@ -481,6 +481,25 @@ function openPopup25() {
     popup.style.display = "block";
 }
 
+// Function to open Popup 26
+function openPopup26() {
+    var popup = document.getElementById("popup");
+    var contentArea = document.getElementById("popup-content-area");
+
+    var contentHTML = `
+         <h4 class="py-3 fw-bold">The Being UpFront Show</h4>
+        <p>Join us on “The Being UpFront Show” for a 20-30 minute episode on Worker Wellbeing. Discover unconventional approaches, hear from experts, and participate in interactive discussions. Be part of the conversation and learn how to support worker wellbeing.
+        </p>
+        <h5 class="py-3 fw-bold">Collaborator:</h5>
+        <div>
+        <img class="popup-img" style="height: 70px;" src="assets/images/logo/upfront.svg" alt="catalyst">
+        </div>
+    `;
+
+    contentArea.innerHTML = contentHTML;
+    popup.style.display = "block";
+}
+
 
 
 

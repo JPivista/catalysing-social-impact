@@ -488,7 +488,7 @@ function openPopup26() {
 
     var contentHTML = `
          <h4 class="py-3 fw-bold">The Being UpFront Show</h4>
-        <p>Join us on “The Being UpFront Show” for a 20-30 minute episode on Worker Wellbeing. Discover unconventional approaches, hear from experts, and participate in interactive discussions. Be part of the conversation and learn how to support worker wellbeing.
+        <p>Join us on “The Being UpFront Show” for a 20-30 minute conversation on Worker Wellbeing. Discover unconventional approaches, hear from experts, and participate in interactive discussions. Be part of the conversation and learn how to support Worker Wellbeing.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div>

@@ -89,7 +89,6 @@ function openPopup5() {
     var contentArea = document.getElementById("popup-content-area");
 
     var contentHTML = `
-    <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
          <h4 class="py-3 fw-bold">AI and No Code Tools for Impact</h4>
         <p>In today’s digital landscape, integrating technology into social impact projects is essential. This session equips stakeholders with the knowledge to harness AI and No-code tools for impactful outcomes.
         </p>
@@ -532,6 +531,7 @@ function openPopup26() {
 function closePopup() {
     var popup = document.getElementById("popup");
     popup.style.display = "none";
+
 }
 
 // Close the popup if user clicks outside of it

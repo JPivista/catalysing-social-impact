@@ -10,7 +10,7 @@ function openPopup1() {
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         
-        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/british.png" alt="Image 1">
+        <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/british.png" alt="Image 1">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
         </div>
         
@@ -32,8 +32,8 @@ function openPopup2() {
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         
-        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/common.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/vrutti.png" alt="Image 1">
+        <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/common.png" alt="Image 1">
+        <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/vrutti.png" alt="Image 1">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
         </div>
     `;
@@ -77,8 +77,8 @@ function openPopup4() {
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         
-        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/icmai.png" alt="Image 1">
-        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/catalyst.png" alt="Image 1">
+        <img class="popup-img w-25 h-100 p-p2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/icmai.png" alt="Image 1">
+        <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/catalyst.png" alt="Image 1">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
         </div>
     `;
@@ -99,7 +99,7 @@ function openPopup5() {
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         
-        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/future.png" alt="Image 1">
+        <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/future.png" alt="Image 1">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
         </div>
     `;
@@ -352,7 +352,7 @@ function openPopup17() {
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         
-        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/catalyst.png" alt="Image 1">
+        <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/catalyst.png" alt="Image 1">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
         </div>
     `;
@@ -373,7 +373,7 @@ function openPopup18() {
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5 align-items-center">
       
-        <img class="popup-img w-25 h-100 " src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/csi/hhh.jpeg" alt="Image 1">
+        <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/csi/hhh.jpeg" alt="Image 1">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
         </div>
     `;
@@ -394,7 +394,7 @@ function openPopup19() {
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         
-        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/phicus.png" alt="phicus">
+        <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/phicus.png" alt="phicus">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
         </div>
     `;
@@ -415,7 +415,7 @@ function openPopup20() {
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         
-        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cphc.png" alt="phicus">
+        <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cphc.png" alt="phicus">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
         </div>
     `;
@@ -436,7 +436,7 @@ function openPopup21() {
         <h5 class="py-3 fw-bold">Presenter:</h5>
         <div>
         
-        <img class="popup-img w-25 h-100" src="assets/images/logo/swasti.png" alt="catalyst">
+        <img class="popup-img w-25 h-100 p-2" src="assets/images/logo/swasti.png" alt="catalyst">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
         </div>
     `;
@@ -476,7 +476,7 @@ function openPopup23() {
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         
-        <img class="popup-img w-25 h-100" src="assets/images/logo/catalyst-2030.png" alt="catalyst">
+        <img class="popup-img w-25 h-100 p-2" src="assets/images/logo/catalyst-2030.png" alt="catalyst">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         
         </div>
@@ -498,7 +498,7 @@ function openPopup24() {
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         
-        <img class="popup-img w-25 h-100" src="assets/images/logo/buzzwomen.jpg" alt="catalyst">
+        <img class="popup-img w-25 h-100 p-2" src="assets/images/logo/buzzwomen.jpg" alt="catalyst">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         </div>
     `;
@@ -519,8 +519,8 @@ function openPopup25() {
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         
-        <img class="popup-img w-25 h-100" src="assets/images/logo/swasti.png" alt="catalyst">
-        <img class="popup-img w-25 h-100" src="assets/images/logo/imd.jpg" alt="catalyst">
+        <img class="popup-img w-25 h-100 p-2" src="assets/images/logo/swasti.png" alt="catalyst">
+        <img class="popup-img w-25 h-100 p-2" src="assets/images/logo/imd.jpg" alt="catalyst">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         </div>
     `;
@@ -541,7 +541,7 @@ function openPopup26() {
 
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
-        <img class="popup-img" style="height: 70px;" src="assets/images/logo/upfront.svg" alt="catalyst">
+        <img class="popup-img p-2" style="height: 70px;" src="assets/images/logo/upfront.svg" alt="catalyst">
         <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         </div>
     `;

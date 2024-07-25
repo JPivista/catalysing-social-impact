@@ -68,7 +68,7 @@ function openPopup4() {
     var contentArea = document.getElementById("popup-content-area");
 
     var contentHTML = `
-         <h4 class="py-3 fw-bold">Accelerating Implementation and Shaping Policy for the Social Stock Exchange</h4>
+         <h4 class="py-3 fw-bold">Pioneering the Future: Accelerating Implementation and Shaping Policy for the Social Stock Exchange</h4>
         <p>Co-hosted by the Institute of Cost Accountants of India-Social Auditors Organization (ICMAI-SAO), this session offers a platform for engagement with leading experts to explore pathways for sustainable development via the Social Stock Exchange (SSE).
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>

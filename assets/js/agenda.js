@@ -8,7 +8,10 @@ function openPopup1() {
         <p>Outcomes-based financing (OBF) is an increasingly popular approach to development finance, but there are deep-rooted questions and concerns about what OBF looks like in practice. This session, led by the British Asian Trust (BAT), will explore how OBF can be unlocked and more easily accessed, aiming to mitigate risks and enable sustainable investments.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/british.png" alt="Image 1">
+        </div>
         
     `;
 
@@ -27,6 +30,7 @@ function openPopup2() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/common.png" alt="Image 1">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/vrutti.png" alt="Image 1">
         </div>
@@ -46,7 +50,8 @@ function openPopup3() {
         <p>This session brings together donors, structuring wizards, and legal experts to showcase the latest funding trends for social enterprises. Through case studies, it will highlight how philanthropic capital can catalyse the private sector to drive sustainability and scale.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div class="d-flex gap-5">
+        <div class="d-flex gap-1">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/blended.png" alt="Image 1">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/waterfield.png" alt="Image 1">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/gamer.png" alt="Image 1">
@@ -68,6 +73,7 @@ function openPopup4() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/icmai.png" alt="Image 1">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/catalyst.png" alt="Image 1">
         </div>
@@ -83,11 +89,13 @@ function openPopup5() {
     var contentArea = document.getElementById("popup-content-area");
 
     var contentHTML = `
+    <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
          <h4 class="py-3 fw-bold">AI and No Code Tools for Impact</h4>
         <p>In today’s digital landscape, integrating technology into social impact projects is essential. This session equips stakeholders with the knowledge to harness AI and No-code tools for impactful outcomes.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/future.png" alt="Image 1">
         </div>
     `;
@@ -106,7 +114,8 @@ function openPopup6() {
         <p>This masterclass focuses on collaborative strategies to bridge the gap between sector professionals and government for enhanced impact.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/nexus.png" alt="Image 1">
         </div>
     `;
@@ -124,7 +133,8 @@ function openPopup7() {
         <p>This session will enumerate challenges faced by states, identifying roles that CSOs, funders, and states can play in creating an enabling environment for scalable programs.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+      <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/socion.png" alt="Image 1">
         </div>
     `;
@@ -181,7 +191,8 @@ function openPopup10() {
         <p>This World Cafe session will explore collaborations with government to achieve scale, sharing lessons from successful case studies.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/nexus.png" alt="Image 1">
         </div>
     `;
@@ -200,7 +211,8 @@ function openPopup11() {
         <p>This interactive group game will delve into the complexities of global warming, providing participants with a hands-on learning experience.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/si.png" alt="Image 1">
         </div>
     `;
@@ -219,7 +231,8 @@ function openPopup12() {
         <p>A World Cafe session to explore strategies to assess and respond to systemic risks, enhancing resilience in the face of global challenges.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/asra.png" alt="Image 1">
         </div>
     `;
@@ -239,6 +252,7 @@ function openPopup13() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/community.png" alt="Image 1">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/farm.png" alt="Image 1">
         </div>
@@ -259,6 +273,7 @@ function openPopup14() {
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/community.png" alt="Image 1">
         <img class="popup-img w-25 h-100" src="assets/images/logo/vartha.png" alt="Image 1">
         
@@ -278,7 +293,8 @@ function openPopup15() {
         <p>This closed-door workshop will focus on building a coalition for social procurement in India, aligning with SDGs and promoting economic and social development.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div class="gap-5 d-flex">
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/sap.png" alt="Image 1">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/sattva.jpg" alt="Image 1">
         </div>
@@ -298,7 +314,8 @@ function openPopup16() {
         <p>The fourth edition of Misfits Global provides a platform for social entrepreneurs and innovators across Asia to showcase solutions and connect with key stakeholders. This pitch competition will highlight impactful ideas and foster collaboration in the social impact ecosystem.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+       <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/mist.jpg" alt="Image 1">
         </div>
     `;
@@ -318,7 +335,8 @@ function openPopup17() {
         . This curiosity-fueled talk show features changemakers and visionaries in the development sector who are redefining the future of work through their innovative and impactful solutions to complex, wicked problems.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/catalyst.png" alt="Image 1">
         </div>
     `;
@@ -333,11 +351,11 @@ function openPopup18() {
     var contentArea = document.getElementById("popup-content-area");
 
     var contentHTML = `
-         <h4 class="py-3 fw-bold">Transforming District Economies: Leveraging Digital Public Infrastructure for Economic Inclusion</h4>
-        <p>This workshop will explore innovative solutions for enhancing MSE market access, focusing on sustainable growth and resilience.
+         <h4 class="py-3 fw-bold">Transforming District Economies: Leveraging Digital Public Infrastructure for Economic Inclusion of MSMEs</h4>
+        <p>This workshop will explore innovative solutions for enhancing MSME market access, focusing on sustainable growth and resilience.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div class="d-flex gap-5 align-items-centerko">
+        <div class="d-flex gap-5 align-items-center">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="Image 1">
         <img class="popup-img w-25 h-100 " src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/csi/hhh.jpeg" alt="Image 1">
         </div>
@@ -357,7 +375,8 @@ function openPopup19() {
         <p>Partnerships and collaborations are essential for amplifying social impact. However, they are fraught with challenges like misaligned goals, communication barriers and resource constraints.  Join this engaging session to explore the complexities of forming and managing effective collaborations.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/phicus.png" alt="phicus">
         </div>
     `;
@@ -376,7 +395,8 @@ function openPopup20() {
         <p>A roundtable discussion on integrating climate resilience with health responses to address global challenges.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cphc.png" alt="phicus">
         </div>
     `;
@@ -397,6 +417,7 @@ function openPopup21() {
         <h5 class="py-3 fw-bold">Presenter:</h5>
         <div>
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
+        <img class="popup-img w-25 h-100" src="assets/images/logo/swasti.png" alt="catalyst">
         </div>
     `;
 
@@ -433,7 +454,8 @@ function openPopup23() {
         <p>An interactive session with corporate speakers, sharing stories of change, while creating shared value with social entrepreneurs.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="assets/images/logo/catalyst-2030.png" alt="catalyst">
         </div>
     `;
@@ -452,7 +474,8 @@ function openPopup24() {
         <p>This panel discussion along with practitioners and funders will increase awareness among participants about the challenges and opportunities for women in entrepreneurship and how micro equity can tackle these challenges and build consensus on actionable strategies to address financing of rural women’s entrepreneurship
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="assets/images/logo/buzzwomen.jpg" alt="catalyst">
         </div>
     `;
@@ -471,7 +494,8 @@ function openPopup25() {
         <p>PATCH utilises a dashboard from APIs from Indian Meteorological Dept- that aims to provide granular correlations between Climate and Health. Senior officials of IMD are expected to launch this program at CSI.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img w-25 h-100" src="assets/images/logo/swasti.png" alt="catalyst">
         <img class="popup-img w-25 h-100" src="assets/images/logo/imd.jpg" alt="catalyst">
         </div>
@@ -487,11 +511,17 @@ function openPopup26() {
     var contentArea = document.getElementById("popup-content-area");
 
     var contentHTML = `
+
+         <h4 class="py-3 fw-bold">Being UpFront: Unconventional Stories and Solutions for a Thriving Workforce</h4>
+        <p>Join us on Being UpFront for a 20-30 minute conversation on Worker Wellbeing. Discover unconventional approaches, hear from experts, and participate in interactive discussions. Be part of the conversation and learn how to support worker wellbeing.
+
          <h4 class="py-3 fw-bold">The Being UpFront Show</h4>
         <p>Join us on “The Being UpFront Show” for a 20-30 minute conversation on Worker Wellbeing. Discover unconventional approaches, hear from experts, and participate in interactive discussions. Be part of the conversation and learn how to support Worker Wellbeing.
+
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
-        <div>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
         <img class="popup-img" style="height: 70px;" src="assets/images/logo/upfront.svg" alt="catalyst">
         </div>
     `;

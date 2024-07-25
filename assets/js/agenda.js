@@ -514,10 +514,6 @@ function openPopup26() {
          <h4 class="py-3 fw-bold">Being UpFront: Unconventional Stories and Solutions for a Thriving Workforce</h4>
         <p>Join us on Being UpFront for a 20-30 minute conversation on Worker Wellbeing. Discover unconventional approaches, hear from experts, and participate in interactive discussions. Be part of the conversation and learn how to support worker wellbeing.
 
-         <h4 class="py-3 fw-bold">The Being UpFront Show</h4>
-        <p>Join us on “The Being UpFront Show” for a 20-30 minute conversation on Worker Wellbeing. Discover unconventional approaches, hear from experts, and participate in interactive discussions. Be part of the conversation and learn how to support Worker Wellbeing.
-
-        </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">

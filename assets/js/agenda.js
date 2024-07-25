@@ -68,7 +68,7 @@ function openPopup4() {
     var contentArea = document.getElementById("popup-content-area");
 
     var contentHTML = `
-         <h4 class="py-3 fw-bold">Accelerating Implementation and Shaping Policy for the Social Stock Exchange</h4>
+         <h4 class="py-3 fw-bold">Pioneering the Future: Accelerating Implementation and Shaping Policy for the Social Stock Exchange</h4>
         <p>Co-hosted by the Institute of Cost Accountants of India-Social Auditors Organization (ICMAI-SAO), this session offers a platform for engagement with leading experts to explore pathways for sustainable development via the Social Stock Exchange (SSE).
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
@@ -512,7 +512,8 @@ function openPopup26() {
     var contentHTML = `
 
          <h4 class="py-3 fw-bold">Being UpFront: Unconventional Stories and Solutions for a Thriving Workforce</h4>
-        <p>Join us on Being UpFront for a 20-30 minute conversation on Worker Wellbeing. Discover unconventional approaches, hear from experts, and participate in interactive discussions. Be part of the conversation and learn how to support worker wellbeing.</p>
+        <p>Join us on Being UpFront for a 20-30 minute conversation on Worker Wellbeing. Discover unconventional approaches, hear from experts, and participate in interactive discussions. Be part of the conversation and learn how to support worker wellbeing.
+
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5">
         <img class="popup-img w-25 h-100" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">

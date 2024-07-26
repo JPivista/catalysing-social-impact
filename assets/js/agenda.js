@@ -368,7 +368,7 @@ function openPopup18() {
 
     var contentHTML = `
          <h4 class="py-3 fw-bold">Transforming District Economies: Leveraging Digital Public Infrastructure for Economic Inclusion of MSMEs</h4>
-        <p>This workshop will explore innovative solutions for enhancing MSME market access, focusing on sustainable growth and resilience.
+        <p>Leveraging Digital Public Infrastructure for Economic Inclusion of MSMEs - The session will discuss how Digital Public Infrastructure (DPI) could be leveraged for district-level economies, how Business Support Organisations (BSO) can support MSMEs, and how this could lead to decentralisation and democratisation of economic opportunities.
         </p>
         <h5 class="py-3 fw-bold">Collaborator:</h5>
         <div class="d-flex gap-5 align-items-center">

@@ -430,8 +430,9 @@ function openPopup21() {
     var contentArea = document.getElementById("popup-content-area");
 
     var contentHTML = `
-         <h4 class="py-3 fw-bold">Centre for Public Health Comms: Film Showcase</h4>
-        <p>Welcome to the Centre for Public Health Comms: Film Showcase. Explore a curated selection of impactful films that delve into critical public health issues, innovative solutions, and the voices of those affected.
+         <h4 class="py-3 fw-bold">The Big Picture Film Festival Curated by The Centre for Strategic Communications for Public Health, Swasti</h4>
+        <p>Welcome to The Big Picture Film Festival 
+Curated by The Centre for Strategic Communications for Public Health, Swasti. Explore a curated selection of impactful films that delve into critical public health issues, innovative soluons, and the voices of those affected.
         </p>
         <h5 class="py-3 fw-bold">Presenter:</h5>
         <div>

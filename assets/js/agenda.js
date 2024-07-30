@@ -551,6 +551,26 @@ function openPopup26() {
     popup.style.display = "block";
 }
 
+// Function to open Popup 27
+function openPopup27() {
+    var popup = document.getElementById("popup");
+    var contentArea = document.getElementById("popup-content-area");
+
+    var contentHTML = `
+
+         <h4 class="py-3 fw-bold">Building Capacity for a Partnership State with Dr. R. Balasubramaniam</h4>
+        <p>State capacity is a combination of its capability and partnership with Civil Society and the private sector towards Jan Bhagidhari and Viksit Bharat. Join us to understand how the Capacity Building Commission works in this area, explained by <a target="_blank" style="color:#8458B9;" href="https://www.linkedin.com/in/r-balasubramaniam/">Dr. R. Balasubramaniam</a>.
+
+        <h5 class="py-3 fw-bold">Collaborator:</h5>
+        <div class="d-flex gap-5">
+        <img class="popup-img w-25 h-100 p-2" src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/logo/cms.png" alt="phicus">
+        </div>
+    `;
+
+    contentArea.innerHTML = contentHTML;
+    popup.style.display = "block";
+}
+
 
 
 
